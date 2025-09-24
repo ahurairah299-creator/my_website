@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo a{
+    font-size: 60px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.navbody{
+    background-color: rgba(250, 235, 215, 0.203);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    backdrop-filter: blur(5px);
+    position: sticky;
+    top: 0;
+    border-collapse: collapse;
+}
+
+.navbody .logo a img{
+   max-width: 50px;
+   margin-top: 10px;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+
+ul a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+    
+
+.menubar{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 25px;
+    padding: 20px;
+    color: white;
+}
+
+body{
+     background-image: url(../Assingment/remove_watermark_image_20250918_093347.png);
+     /* width: 1000vh; */
+
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+.imag{
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.cover .imag{
+    margin-left: 20px;
+}
+
+.content{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.navbody2 a:hover{
+    font-size: 24px;
+    transition: 1s;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+
+.navbody2 li a:hover{
+    transform: scale(1.7);
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+.imag img{
+    /* min-width: 100px;
+    min-height: 100px; */
+    height: 400px;
+    width: 580px;
+    border-radius: 100px;
+}
+
+.cover .imag{
+    /* margin-left: 20px; */
+}
+
+.content{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.cart_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Assingment/Screenshot\ recipe\ bg.png);
+    background-size: cover;
+    background-position: 50%, 100%;
+}
+
+.cover{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.4s ease;
+}
+
+.cover:hover{
+    transform: translateY(-10px);
+}
+.boxes{
+    flex-wrap: wrap;
+    display: flex;
+    
+    gap: 20px;
+    
+}
+
+
+.food2 img{
+    width: 580px;
+    height: 400px;
+    border-radius: 100px;
+    
+}
+.food3 img{
+    width: 380px;
+    height: 400px; 
+    border-radius: 200px;
+    margin-left: 20px;
+}
+
+.subheading{
+    font-size: 20px;
+}
+span{
+    font-size: 30px;
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+.food4 img{
+    width: 380px;
+    height: 400px;
+}
+
+.food5 img{
+    width: 380px;
+    height: 400px;
+    border-radius: 200px;
+}
+
+button{
+    color: white;
+    background-color: green;
+    font-size: 20px;
+    border-radius: 10px;
+    height:40px;
+    width: 120px;
+}
+button:hover{
+    background-color: chocolate;
+}
+
+.menubar span{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 50px;
+}
+
+.menubar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Assingment/Screenshot\ recipe\ bg.png);
+}
+
