@@ -51,7 +51,7 @@ ul a{
 }
 
 body{
-     background-image: url(../Assingment/remove_watermark_image_20250918_093347.png);
+     background-image: url(remove_watermark_image_20250918_093347.png);
      /* width: 1000vh; */
 
      background-repeat: no-repeat;
@@ -109,7 +109,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-image: url(../Assingment/Screenshot\ recipe\ bg.png);
+    background-image: url(Screenshot\ recipe\ bg.png);
     background-size: cover;
     background-position: 50%, 100%;
 }
@@ -189,6 +189,6 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../Assingment/Screenshot\ recipe\ bg.png);
+    background-image: url(Screenshot\ recipe\ bg.png);
 }
 
